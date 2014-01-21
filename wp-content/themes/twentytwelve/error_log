@@ -1,0 +1,1 @@
+[27-Dec-2013 12:38:03 America/Detroit] PHP Fatal error:  Call to undefined function get_header() in /home/getglamm/public_html/wp-content/themes/twentytwelve/404.php on line 10

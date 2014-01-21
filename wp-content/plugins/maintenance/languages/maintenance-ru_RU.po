@@ -1,0 +1,193 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: maintenance\n"
+"POT-Creation-Date: 2013-12-06 14:52+0200\n"
+"PO-Revision-Date: 2013-12-06 14:53+0200\n"
+"Last-Translator: \n"
+"Language-Team: fruitfulcode\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-KeywordsList: _;_e;__;_x\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+#: includes/admin.php:84
+msgid "Save changes"
+msgstr "Сохранить"
+
+#: includes/functions.php:104
+msgid "General Settings"
+msgstr "Общие настройки"
+
+#: includes/functions.php:105
+#: includes/functions.php:157
+msgid "Extended version"
+msgstr "Расширенная версия"
+
+#: includes/functions.php:106
+#: includes/functions.php:145
+msgid "Contact support"
+msgstr "Служба поддержки"
+
+#: includes/functions.php:114
+msgid "Page title"
+msgstr "Заголовок страницы"
+
+#: includes/functions.php:115
+msgid "Headline"
+msgstr "Заголовок"
+
+#: includes/functions.php:116
+msgid "Description"
+msgstr "Описание"
+
+#: includes/functions.php:117
+msgid "Logo"
+msgstr "Логотип"
+
+#: includes/functions.php:117
+msgid "Upload Logo"
+msgstr "Загрузить логотип"
+
+#: includes/functions.php:120
+msgid "Admin bar"
+msgstr "Админ-панель"
+
+#: includes/functions.php:120
+msgid "Show admin bar"
+msgstr "Показать админ-панель"
+
+#: includes/functions.php:121
+msgid "503"
+msgstr ""
+
+#: includes/functions.php:121
+msgid "Service temporarily unavailable"
+msgstr "Сервис врменно недоступен"
+
+#: includes/functions.php:122
+msgid "Blur intensity"
+msgstr "Интенсивность размытия"
+
+#: includes/functions.php:123
+msgid "Background blur"
+msgstr "Размытие фона"
+
+#: includes/functions.php:123
+msgid "Apply a blur"
+msgstr "Применить размытие"
+
+#: includes/functions.php:130
+msgid "Background image"
+msgstr "Фоновое изображение"
+
+#: includes/functions.php:130
+msgid "Upload Background"
+msgstr "Загрузить фон"
+
+#: includes/functions.php:136
+msgid "Background color"
+msgstr "Цвет фона"
+
+#: includes/functions.php:137
+msgid "Font color"
+msgstr "Цвет шрифта"
+
+#: includes/functions.php:146
+#, php-format
+msgid ""
+"If you faced with any problems, have a question or suggestion you always can "
+"contact us with any request on our website <a href=\"%1$s\" title=\"%2$s\">"
+"%2$s</a>"
+msgstr ""
+"Если вы столкнулись с любыми проблемами, есть вопрос или предложение, вы "
+"всегда можете обратиться к нам с любым предложением  на нашем сайте <a href="
+"\"%1$s\" title=\"%2$s\">%2$s</a>"
+
+#: includes/functions.php:158
+#, php-format
+msgid ""
+"If you like our plugin please rate it, %1$s <a title=\"leave feedback\" href="
+"\"%2$s\" target=\"_blank\">leave feedback</a> or purchase extended version "
+"%1$s with more other features."
+msgstr ""
+"Если Вам нравиться наш плагин, оцените его %1$s <a title=\"оставить "
+"комментарий\" href=\"%2$s\" target=\"_blank\">оставить комментарий</a> или "
+"купите расширенную версию %1$s с дополнительными возможностями."
+
+#: includes/functions.php:162
+msgid "Purchase"
+msgstr "Купить"
+
+#: includes/functions.php:219
+msgid "maintenance"
+msgstr ""
+
+#: includes/functions.php:242
+msgid "Website is under construction"
+msgstr "Сайт находится в стадии разработки"
+
+#: includes/functions.php:243
+msgid "Maintenance mode is on"
+msgstr "Режим обслуживания включен"
+
+#: includes/functions.php:244
+msgid "Website will be available soon"
+msgstr "Сайт скоро бдует доступен "
+
+#: load/functions.php:37
+msgid "Permission access denied!"
+msgstr "Доступ запрещен!"
+
+#: load/functions.php:45
+msgid "You entered your login are incorrect!"
+msgstr "Вы ввели неверный логин! "
+
+#: load/functions.php:49
+msgid "You entered your password are incorrect!"
+msgstr "Вы ввели неверный пароль!"
+
+#: load/functions.php:52
+msgid "You entered your login and password are incorrect!"
+msgstr "Вы ввели неверный логин или пароль!"
+
+#: load/functions.php:215
+msgid "Username"
+msgstr "Логин"
+
+#: load/functions.php:216
+msgid "Password"
+msgstr "Пароль"
+
+#: load/functions.php:217
+msgid "Sign In"
+msgstr "Войти"
+
+#~ msgid "We have time until launch"
+#~ msgstr "Осталось времени до запуска"
+
+#~ msgid "Be first of your friends who will know when the website goes live."
+#~ msgstr "Будь первым из твоих друзей, кто узнает о запуске сайта."
+
+#~ msgid "Premium version"
+#~ msgstr "Премиум версия"
+
+#~ msgid "Check out our extended version of plugin with new features"
+#~ msgstr "Проверьте возможности расширенной версии плагина"
+
+#~ msgid "Your session has expired."
+#~ msgstr "Ваша сессия истекла."
+
+#~ msgid "Customer login"
+#~ msgstr "Вход для клиентов"
+
+#~ msgid "Please login to see website"
+#~ msgstr "Пожалуйста авторезируйтесь"
+
+#~ msgid "User roles"
+#~ msgstr "Роли пользователей"
+
+#~ msgid "Choose users access permissions in maintenance mode."
+#~ msgstr "Выберите права доступа пользователей в режиме обслуживания."

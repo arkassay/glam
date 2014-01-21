@@ -1,0 +1,597 @@
+/*   
+Theme Name: Get Glammed!
+Theme URI: 
+Description: Custom theme for getglammed.com
+Author: Michael Kleymann
+Author URI: http://mikekleymann.com
+Version: 1.0
+*/
+
+/* Reset default browser styles */
+@import url('styles/reset.css');
+
+/* Rebuild default browser styles */
+@import url('styles/rebuild.css');
+
+/* Import a basic layout */
+@import url('styles/2c-l.css');
+
+/* Basic WordPress Styles */
+@import url('styles/wp.css');
+
+/* Layout 1 Column, Widget areas at bottom */
+/* @import url('styles/1c-b.css'); */
+
+/* Layout 2 column, sidebar left */
+/* @import url('styles/2c-l.css'); */
+
+/* Layout 2 column, sidebar right */
+/* @import url('styles/2c-r.css'); */
+
+/* Layout 3 column, sidebars left and right */
+/* @import url('styles/3c-b.css');*/
+
+/* Layout 3 column, sidebars right */
+/* @import url('styles/3c-r.css'); */
+
+/* Layout 3 column, sidebars left */
+/* @import url('styles/3c-l.css'); */
+
+
+/* =Body
+-------------------------------------------------------------- */
+body {
+        background-color: #ccf;
+        font-family: Georgia, "Times New Roman", Times, serif;
+        color: #737474;
+}
+
+input, textarea {
+        font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+#outer-wrapper {
+        background-color: #fff;
+}
+
+#inner-wrapper {
+        width: 1015px;
+        margin: 0 auto;
+}
+
+/* =Header
+-------------------------------------------------------------- */
+#header, #footer {
+        background-color: #ccf;
+}
+#branding {
+        margin: 30px auto;
+        background-image: url('images/header-logo.png');
+        height: 120px;
+        width: 943px;
+}
+
+#branding a {
+        height: 120px;
+        width: 943px;
+        display: block;
+}
+
+
+/* =Menu
+-------------------------------------------------------------- */
+
+#access {
+        width:958px;
+        height: 85px;
+        background-image: url('images/menu_border.png');
+        background-repeat: no-repeat;
+        margin: 0 auto;
+}
+
+#menu .menu {
+        float: left;
+}
+.skip-link {
+        display: none;
+}
+#menu ul {
+        list-style: none;
+        margin: 0;
+        z-index: 100;        
+}
+#menu .menu ul ul {
+        display: none;
+}
+#menu .menu li {
+        display: inline;
+        position: relative;
+        float:left;
+        
+}
+#menu .menu a {
+        display: block;
+        float: left;
+        height: 75px;
+        background-position: 0 0;
+        background-repeat: no-repeat;
+        margin: 13px 32px 0 35px;
+        overflow: hidden;
+        text-decoration: none;
+}
+
+#menu .menu a:hover {
+        background-position: 0 -85px;
+}
+
+#menu .menu-the-inside-container .menu li.inside a {
+        width: 107px;
+        background-image: url('images/menu_inside.png');
+}
+
+#menu .menu-the-outside-container .menu li.outside a {
+        width: 116px;
+        background-image: url('images/menu_outside.png');
+}
+
+#menu .menu-the-inspiration-2-container .menu li.inspiration a {
+        width: 148px;
+        background-image: url('images/menu_inspiration.png');
+}
+
+#menu .menu-the-obsession-3-container .menu li.obsession a {
+        width: 136px;
+        background-image: url('images/menu_obsession.png');
+}
+
+#menu .menu-the-life-container .menu li.life a {
+        width: 85px;
+        background-image: url('images/menu_life.png');
+}
+
+span.displaced {
+        position: absolute;
+        left: -9999px;
+}
+
+#menu ul.sub-menu li a {
+        height: 15px;
+        padding: 6px 5px 6px 9px;
+        float: none;
+        text-decoration: none;
+        background: url('images/submenu.png') no-repeat left 9px!important;
+        color: #000;
+        margin: 5px 0px 0px 5px;
+}
+
+#menu ul.sub-menu li a:hover {
+        color: #b4b4ff;
+}
+#menu ul.sub-menu {
+        display: none;
+        position: absolute;
+        left: 30px;
+        top: 53px!important;
+        margin: 0;
+        width: 158px;
+        padding: 32px 0 22px 0!important;
+        background: url('images/ul_ul.png') no-repeat bottom!important;
+        font-style: italic;
+}
+
+#menu .menu li:hover ul.sub-menu {
+       display: block;        
+}
+
+#menu ul.sub-menu li {
+        display: list-item;
+        padding: 0px 0 0px 30px!important;
+        width:128px;
+        background: url('images/li_li_a.png') repeat-y left!important;
+}
+
+.side-nav ul.sub-menu {
+        margin: 5px 10px 5px 50px!important;
+        list-style-image: url('images/submenu.png')!important;
+}
+
+.side-nav ul.sub-menu li {
+        margin-top: 5px;
+        font-style: normal;
+        font-weight: bold;
+}
+
+.side-nav {
+        padding-left: 10px;
+}
+.side-nav span.displaced {
+        text-transform: lowercase;
+        position: relative;
+        left:0px;
+}
+
+li.menuoff, .menuoff a {
+        display: none!important;
+}
+/* Social Icons
+-------------------------------------------------------------- */
+
+ul.sidebar li.widget_nav_menu {
+        margin: 25px 0px;
+}
+
+ul#menu-soc-icons {
+        list-style: none;
+        margin: 0px 0px 0px 0px;
+}
+
+ul#menu-soc-icons li a {
+        height: 70px;
+        width: 71px;
+        display: block;
+}
+
+ul#menu-soc-icons li {
+        height: 70px;
+        width: 71px;
+        display: inline;
+        margin: 0 0 0 3px;
+        float:left;
+}
+
+ul#menu-soc-icons li.pinterest {
+        margin: 0 0 0 38px;
+}
+ul#menu-soc-icons li.facebook_ico a {
+        background-image: url('images/facebk-ico.png');
+}
+
+ul#menu-soc-icons li.twitter_ico a {
+        background-image: url('images/twitter-ico.png');
+}
+
+ul#menu-soc-icons li.rss_ico a {
+        background-image: url('images/rss-ico.png');
+}
+
+ul#menu-soc-icons li.pinterest a {
+        background-image: url('images/pinterest-ico.png');
+}
+
+ul#menu-soc-icons li.instagram a {
+        background-image: url('images/instagram-ico.png');
+}
+
+.sidebar h3.widget-title {
+        color: #473B5F;
+}
+
+
+
+/* =Content
+-------------------------------------------------------------- */
+#home-top {
+}
+
+#main {
+        margin: 20px 0 0 0;
+}
+.post {
+        margin: 0 0 3em 0;      
+}
+.entry-content, .entry-summary {
+        margin: 1.5em 0 0 0;
+}
+
+#home-posts #post-image, .csc_post_thumbnail {
+        height: 295px;
+        overflow: hidden;
+        margin-bottom: 20px;
+}
+
+#home-posts #post-image, .csc_post_thumbnail {
+        height: 295px;
+        overflow: hidden;
+        margin-bottom: 20px;
+        position: relative;
+}
+
+#home-posts #post-image img, .csc_post_thumbnail img {
+        width: 760px;
+        height: auto;
+}
+
+#home-posts #post-image img {
+        position: absolute;
+        bottom: 0px;
+}
+
+
+#home-posts .entry-content {
+        margin-left: 46px;
+}
+
+.home-post-marker {
+        width: 40px;
+        height: 30px;
+        float: left;
+        background-image: url('images/post-marker.png');
+        background-repeat: no-repeat;
+        background-position: 0 5px;
+}
+
+#home-posts-title {
+        margin: 30px 0 15px 0;
+}
+.postinfo {
+        width: 720px;
+        float: right;
+}
+
+.postinfo .entry-meta {
+        color: #000;
+        font-size: 14px;
+}
+
+.postinfo .entry-meta a {
+        color: #000;
+        text-decoration: none;
+}
+
+span.meta-sep {
+        margin: 0 5px;
+}
+.csc_post_title {
+        float: left;
+        margin-bottom: 20px;
+}
+.csc_post_date {
+        float: right;
+}
+
+.csc_post h2 {
+        font-size: 16px;
+        line-height: 23px;
+        font-weight: bold;
+}
+
+
+#content .page {
+        border: solid 2px #a3a3a3;
+        padding: 10px;
+}
+
+
+/* =Navigation
+-------------------------------------------------------------- */
+
+.navigation {
+        margin: 0 0 1.5em 0;
+        overflow: auto; 
+}
+
+
+/* =Widget Areas
+-------------------------------------------------------------- */
+
+.widget-area {
+        margin-top: 30px;
+}
+
+.widget-area {
+        font-style: italic;
+}
+.widget-area ul {
+        list-style: none;
+        margin-left: 0;
+}
+.widget-area ul ul {
+        list-style: disc;
+        margin-left: 1.1em;
+}
+.widget-area ul ul ul {
+        margin-left: 2.5em;
+}
+.widget-container {
+        margin: 0 0 1.5em 0;
+}
+
+ul.sidebar li {
+        margin: 25px 12px 25px 12px;
+}
+
+#after-widget {
+        border-bottom: solid 1px #d6d6d6;
+}
+
+input[type="text"] {
+        border: 0px;
+        background-color: #d6d6d6;
+}
+
+#searchform, #emailform {
+        margin-top: 20px;
+        margin-left: -8px;
+}
+
+.widget-container input.submit_button {
+        background: none;
+        border: none;
+        background-image: url('images/search.png');
+        width: 41px;
+        height: 38px;
+        margin-left: -10px;
+        z-index: 5px;
+}
+input.searchform, input.contact-email {
+        float:left;
+        margin-top: 5px;
+        width:158px;
+        height: 25px;
+        font-style: italic;
+        padding-left: 5px;
+        margin-right: 7px;
+}
+
+input.searchbutton {
+        margin-left: -10px;
+}
+
+::-webkit-input-placeholder  { color:#888; }
+input:-moz-placeholder { color:#888; }
+
+li#text-5 {
+        font-style: normal;
+}
+/* = Font styling
+ -------------------------------------------------------------------*/
+h1,h2,h3.widget-title,p.topmenu {
+        font-size: 30px;
+        color: #473b5f;
+}
+p.topmenu {
+        margin-bottom: 15px;
+        color: #473B5F;
+}
+
+h1.home-title {
+        color: #473B5F;
+}
+h3.widget-title {
+        margin: 0 0 10px 0;
+}
+h2.glam-entry {
+        float:left;
+}
+
+.entry-meta {
+        float:left;
+        width:100%;
+        height:30px;
+}
+
+#postbox .entry-meta {
+	width: 720px;
+}
+
+.entry-meta h2 {
+        color: #473b5f;
+        font-size: 16px;
+}
+
+a {
+        color: #473b5f;
+        text-decoration: none;
+}
+/* = Clearfix
+ * -----------------------------------------------------------------*/
+.clearfix:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+ 
+.clearfix {
+	display: inline-block;
+}
+ 
+html[xmlns] .clearfix {
+	display: block;
+}
+ 
+* html .clearfix {
+	height: 1%;
+}
+/* = footer
+---------------------------------------------------------------------*/
+#footer {
+        margin-bottom: 30px;
+}
+
+#footer #inner-wrapper #footer-left-area{
+        margin-top: 20px;
+        width: 20%;
+        float: left;
+}
+
+#footer #inner-wrapper .menu-footer-left-container {
+	margin-top: 20px;
+	width: 80%;
+	float: left;
+}
+
+#footer ul {
+        list-style: none;
+        margin: 0px
+}
+
+#footer ul.menu li {
+	display: inline!important;
+	margin: 0 16px 0 16px;
+}
+
+#footer ul li {
+        margin-top: 10px;
+}
+
+#footer ul ul li {
+        margin-top: 5px;
+}
+
+#footer ul li a {
+        text-transform: uppercase;
+        font-size: 14px;
+        font-weight: bold;
+        color: #000;
+        text-decoration: none;
+}
+
+#footer ul ul li a {
+        text-transform: none;
+        font-size: 13px;
+        font-weight: normal;
+}
+
+#footer-logo {
+        height: 72px;
+        width: 176px!important;
+        margin: 0px auto 30px!important;
+        background-image: url('images/footer-logo.png');
+}
+#footer-text, #footer-text div {
+        width: 100%!important;
+        float: none!important;
+        font-size: 13px;
+}
+
+#footer-left-area a {
+        color: #000;
+        text-decoration: none;
+        font-style: italic;
+}
+
+a.boldlink {
+        font-weight: bold;
+}
+.entry-content p, .entry-content li{
+font-size: 14px;
+}
+.smooth_slider .smooth_sliderb .smooth_slideri span{
+	line-height: 1.4;
+	padding-top: 20px;
+	font-size: 16px;
+	width: 80%;
+}
+.smooth_slider .smooth_sliderb .smooth_slideri h2{
+	margin-bottom: 20px;
+	margin-top: 10px
+}
+.smooth_slider .smooth_sliderb .smooth_slider_thumbnail{
+	margin-right: 20px;
+}
+.post{
+	margin-top: 30px;	
+}
